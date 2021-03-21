@@ -1,0 +1,28 @@
+html,
+body,
+select,
+button,
+input[type='text'] {
+  font-family: 'Open Sans', sans-serif;
+  color: #3c3c3c;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+
+  &-block {
+    display: inline-block;
+  }
+}
+
+.block {
+  display: block;
+}

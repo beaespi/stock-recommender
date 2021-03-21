@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: $unit-2-5;
+  border: 1px solid #ddd;
+}
+
+th {
+  font-size: $unit-3-5;
+  background-color: white;
+  font-weight: 400;
+}
+
+td {
+  font-size: $unit-3;
+}
+
+tr:nth-child(odd) {
+  background-color: #d2d2d21a;
+}
+
+tr:hover {
+  background-color: #f9f6f6;
+}

@@ -1,0 +1,74 @@
+.w {
+  &-100 {
+    width: 100%;
+  }
+  &-75 {
+    width: 75%;
+  }
+  &-50 {
+    width: 50%;
+  }
+  &-25 {
+    width: 25%;
+  }
+}
+
+.mx-5 {
+  margin-left: $unit-5;
+  margin-right: $unit-5;
+}
+
+.my-5 {
+  margin-top: $unit-5;
+  margin-bottom: $unit-5;
+}
+
+.mb-5 {
+  margin-bottom: $unit-5;
+}
+
+.mt-5 {
+  margin-top: $unit-5;
+}
+
+.ml-5 {
+  margin-left: $unit-5;
+}
+
+.mr-5 {
+  margin-right: $unit-5;
+}
+
+.m-5 {
+  margin: $unit-5;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.m-auto {
+  margin: auto;
+}

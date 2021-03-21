@@ -1,0 +1,21 @@
+.badge {
+  padding: $unit-1;
+  border-radius: $unit-1;
+  font-weight: 600;
+
+  &-buy {
+    border: 1px solid #14bb00;
+    background-color: #14bb0057;
+    color: #138a05;
+  }
+  &-hold {
+    border: 1px solid #ff9d09;
+    background-color: #ff9d0966;
+    color: #ce7c00;
+  }
+  &-sell {
+    border: 1px solid #fd5353;
+    background-color: #fd53537d;
+    color: #b90000;
+  }
+}

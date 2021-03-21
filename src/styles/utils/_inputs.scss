@@ -1,0 +1,24 @@
+select,
+button,
+input[type='text'] {
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+select,
+input[type='text'] {
+  border: 1px solid #ddd;
+  padding: $unit-2 $unit-2-5;
+}
+
+button {
+  background-color: #3da2ea;
+  padding: $unit-2-5 $unit-5;
+  color: white;
+  border: none;
+}
+
+input[type='text'] {
+  line-height: $unit-5;
+  font-size: $unit-3-5;
+}
