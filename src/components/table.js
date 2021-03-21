@@ -4,7 +4,7 @@ import { getFormattedDate, intl } from './common/functions'
 const Table = ({header, data}) => {
   return (
     <table
-      className="w-100"
+      className="w-100 mb-5"
       role="table"
       aria-label="Stock Table"
     >
